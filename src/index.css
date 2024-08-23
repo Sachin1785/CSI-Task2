@@ -150,6 +150,18 @@ body {
   .hero-section {
       flex-direction: column;
       padding: 20px;
+      display: flex;
+      align-items: center;
+      background-color: #f3f7f8; /* Light background color to match the image */
+      border-radius: 45px;
+      overflow: hidden;
+      /* padding-right: 40px; */
+      margin-right:0px;
+      margin-left: 0px;
+      margin-top: 0px;
+      /* padding: 40px; */
+      /* gap: 20px; */
+      animation: scaleUp 1s ease-in-out;
   }
 
   .hero-content {
@@ -530,3 +542,39 @@ footer p {
     width: 50px;
   }
 }
+
+.facilities-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.facilities-text {
+  flex: 1 1 100%;
+  max-width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.facilities-text h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.facilities-text p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.contact-btn {
+  background-color: #00c853;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
